@@ -1,7 +1,7 @@
 {
   "name": "electron-scaffolding-project",
   "version": "0.1.0",
-  "description": "Electron scaffolding Project",
+  "description": "RaskVask Desktop App",
   "main": "main.js",
   "repository": {
     "type": "git",
@@ -11,7 +11,7 @@
     "start": "electron .",
     "pack": "electron-packager . --icon \"app_icons/Icon.icns\" --overwrite"
   },
-  "author": "Olivier Klaver",
+  "author": "Merethe Ølstøren",
   "license": "MIT",
   "dependencies": {
     "electron": "^1.6.7",

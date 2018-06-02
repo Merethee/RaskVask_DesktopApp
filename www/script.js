@@ -35,14 +35,13 @@ var appState = {
     }
 };
 
-
 // Duration
 var durationHolder = {
     "min": 0,
     "sec": 0
 };
 
-
+// Activity List
 var activityList  = document.querySelectorAll('input[type=radio]');
 
 for(var activityButton of activityList){
@@ -76,7 +75,6 @@ function setActive(element){
         }
     }
 }
-
 
 // Mark selected activity
 let label = Array.from(document.querySelectorAll('.container'));
@@ -166,8 +164,6 @@ function showDuration() {
     ipcRenderer.send('countdown', startCountdown.textContent);
 }
 
-
-
 // Timer is done
 function playAlarm(text) {
 
@@ -181,7 +177,6 @@ function playAlarm(text) {
 
     ipcRenderer.send('counterDone', text);
 }
-
 
 // Reset the timer
 function resetClock() {

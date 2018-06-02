@@ -31,7 +31,8 @@ function createWindow() {
     }));
 
     // Add Tary Icon + timer 
-    var tray = new Tray('app_icons/Icon.png'); 
+    var iconPath = path.join(__dirname, 'app_icons/Icon.png')
+    var tray = new Tray(iconPath); 
     ipcMain.on('countdown', function(event, arg){
         tray.setTitle(arg);
     });

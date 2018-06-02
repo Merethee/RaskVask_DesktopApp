@@ -20,7 +20,7 @@ function createWindow() {
         height: 670,
         resizable: false,
         titleBarStyle: "hidden",
-        icon: ('app_icons/Icon.png')
+        icon: 'app_icons/Icon.png'
     })
 
     // Load the index.html of the app.

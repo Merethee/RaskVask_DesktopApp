@@ -19,8 +19,8 @@ function createWindow() {
         width: 1200,
         height: 670,
         resizable: false,
-        titleBarStyle: "hidden"
-    
+        titleBarStyle: "hidden",
+        icon: ('app_icons/Icon.png')
     })
 
     // Load the index.html of the app.
@@ -43,8 +43,7 @@ function createWindow() {
             title: arg,
             body: "Nå kan du begynne på neste gjøremål",
         });
-        popup.show();
-        
+        popup.show(); 
     });
 
     // Emitted when the window is closed.

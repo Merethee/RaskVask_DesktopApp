@@ -199,6 +199,4 @@ function stopTimer() {
 
     durationHolder.min = 0;
     durationHolder.sec = 0;
-
-    ipcRenderer.removeListener('counterDone', text);
 }

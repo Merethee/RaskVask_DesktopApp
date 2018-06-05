@@ -19,8 +19,7 @@ function createWindow() {
         width: 1200,
         height: 670,
         resizable: false,
-        titleBarStyle: "hidden",
-        icon: 'app_icons/Icon.png'
+        titleBarStyle: "hidden"
     })
 
     // Load the index.html of the app.
@@ -31,7 +30,7 @@ function createWindow() {
     }));
 
     // Add Tary Icon + timer 
-    var iconPath = path.join(__dirname, 'app_icons/Icon.png')
+    var iconPath = path.join(__dirname, 'app_icons/tray_logo.png')
     var tray = new Tray(iconPath); 
     ipcMain.on('countdown', function(event, arg){
         tray.setTitle(arg);

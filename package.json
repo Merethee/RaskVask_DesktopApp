@@ -1,12 +1,8 @@
 {
-  "name": "electron-scaffolding-project",
+  "name": "rask-vask",
   "version": "0.1.0",
   "description": "RaskVask Desktop App",
   "main": "main.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/interaksjonsdesign/electron-scaffolding-project.git"
-  },
   "scripts": {
     "start": "electron .",
     "pack": "electron-packager . --icon \"app_icons/Icon.icns\" --overwrite"

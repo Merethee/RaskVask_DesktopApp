@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    	<meta charset="utf-8">
+		<title>RaskVask</title>
+		<link rel="stylesheet" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+	</head>
+	<body>
+			<img src="assets/green.jpg" alt="flower" class="background">
+			<h1>RaskVask</h1>
+			<hr>
+			<p class="text t1">Velg oppgave</p>
+				<form class="box to-do" id="to_do_selector">
+						<label class="container"> Vaske gulv <span class="time-teaser"> 15min</span>
+							<input value="clean" type="radio" checked="checked" name="radio">
+							<span class="checkmark"></span>
+						</label>
+						<label class="container"> Støvsuge <span class="time-teaser"> 15min</span>
+							<input value="vacuum" type="radio" name="radio">
+							<span class="checkmark"></span>
+						</label>
+						<label class="container"> Tørke støv <span class="time-teaser"> 10min</span>
+							<input value="dust" type="radio" name="radio">
+							<span class="checkmark"></span>
+						</label>
+						<label class="container"> Vaske benker <span class="time-teaser"> 5min</span>
+							<input value="benches" type="radio" name="radio">
+							<span class="checkmark"></span>
+						</label>
+						<label class="container"> Vaske speil <span class="time-teaser"> 5min</span>
+							<input value="mirror" type="radio" name="radio">
+							<span class="checkmark"></span>
+						</label>
+					</form>
+
+				
+			<p class="text t2">Start tiden</p>
+				<div class="timer">
+					<span class="countdown">00:00</span>
+					<div class="play">Start</div>
+					<div class="stop">Stopp</div>
+				</div>
+
+			<p class="text t3">Gjennomførte oppgaver</p>
+				<ul class="box check" id="done-list">
+				</ul>
+
+		<script src="script.js"></script>
+		
+	</body>
+
+</html>

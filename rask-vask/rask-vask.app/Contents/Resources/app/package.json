@@ -1,0 +1,16 @@
+{
+  "name": "rask-vask",
+  "version": "0.1.0",
+  "description": "RaskVask Desktop App",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-packager . --icon \"app_icons/Icon.icns\" --overwrite"
+  },
+  "author": "Merethe Ølstøren",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^1.6.7",
+    "electron-packager": "^8.7.0"
+  }
+}

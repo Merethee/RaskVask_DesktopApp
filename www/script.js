@@ -6,31 +6,31 @@ var appState = {
     "clean": {
         "active": false,
         "done": false,
-        "minutes": 1,
+        "minutes": 15,
         "customName": "Vasket gulv"
     },
     "vacuum": {
         "active": false,
         "done": false, 
-        "minutes": 1,
+        "minutes": 15,
         "customName": "Støvsugd"
     },
     "dust": {
         "active": false,
         "done": false, 
-        "minutes": 1,
+        "minutes": 10,
         "customName": "Tørket støv"
     }, 
     "benches": {
         "active": false,
         "done": false, 
-        "minutes": 1,
+        "minutes": 5,
         "customName": "Vasket benker"
     },
     "mirror": {
         "active": false,
         "done": false, 
-        "minutes": 1,
+        "minutes": 5,
         "customName": "Vasket speil"
     }
 };

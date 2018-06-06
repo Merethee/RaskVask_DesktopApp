@@ -1,4 +1,4 @@
-# RaskVask Desktop App - Produkt kilden 
+# RaskVask Desktop App - Produkt kilden og Applikasjonen
 
 ## Temaoppgave 8
 
